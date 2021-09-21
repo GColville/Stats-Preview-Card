@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.main-container {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 8rem;
+    border-radius: 10px;
+    max-width: 70rem;
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    /* background-color: pink; */
+    padding: 10px 40px;
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.card-description {
+    /* background-color: orange; */
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 20px 80px 20px 40px;
+    margin-bottom: 3rem;
+}
+
+.card-stats {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+    margin-top: 80px;
+    /* padding: 0 0 0 40px; */
+    color: hsl(0, 0%, 100%);
+}
+
+.card-stat {
+    margin-left: 40px;
+}
+
+.card-stat:nth-child(n+2) {
+    margin-left: 70px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
