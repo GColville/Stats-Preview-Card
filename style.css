@@ -57,6 +57,7 @@ body {
 
 .card-stat {
     margin-left: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .card-stat:nth-child(n+2) {
